@@ -1,7 +1,9 @@
 const allProductsUrl =
   'https://course-api.netlify.app/api/javascript-store-products';
+// temp single product
+// https://course-api.netlify.app/api/javascript-store-single-product?id=recmg2a1ctaEJNZhu
 const singleProductUrl =
-  'https://course-api.netlify.app/api/javascript-store-single-product?id=rec43w3ipXvP28vog';
+  'https://course-api.netlify.app/api/javascript-store-single-product';
 
 const getElement = (selection) => {
   const element = document.querySelector(selection);
